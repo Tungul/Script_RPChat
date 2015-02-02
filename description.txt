@@ -1,0 +1,3 @@
+Title: RPChat
+Author: »IceBlµe³, SolarFlare and Weiss. 60% by Lugnut.
+A chat system for Role plays.
