@@ -27,6 +27,9 @@ function servercmdrpcsave(%client)
 }
 exec("config/server/RPChatSave.cs");
 
+if(!$RPChat::OOCEnabled)
+	$RPChat::OOCEnabled = 1;
+
 $pref::clickstatsenabled = 1;
 
 if(!$RPChatTemp__Prefs)
