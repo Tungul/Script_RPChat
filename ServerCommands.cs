@@ -130,7 +130,7 @@ function serverCmdWhoIs(%client, %name)
 		}
 		if(strstr(%cl.getPlayerName(), %name) > -1)
 		{
-			messageClient(%client, '', '\c6%1\c2 is also known as \c6%2\c2.', %cl.getRPName(), %cl.getPlayerName());
+			messageClient(%client, '', '\c6%1\c2 is also known as \c6%2\c2.', %cl.getPlayerName(), %cl.getRPName());
 			return;
 		}
 	}
